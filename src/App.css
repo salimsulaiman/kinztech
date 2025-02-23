@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-urbanist: "Urbanist", serif;
+  /* color */
+  /* curious-blue */
+  --color-curious-blue-50: #f1fafe;
+  --color-curious-blue-100: #e3f2fb;
+  --color-curious-blue-200: #c0e6f7;
+  --color-curious-blue-300: #89d3f0;
+  --color-curious-blue-400: #4abde6;
+  --color-curious-blue-500: #22a5d5;
+  --color-curious-blue-600: #1691c5;
+  --color-curious-blue-700: #126a92;
+  --color-curious-blue-800: #135979;
+  --color-curious-blue-900: #154b65;
+  --color-curious-blue-950: #0e3043;
+  /* keppel */
+  --color-keppel-50: #f0fdfa;
+  --color-keppel-100: #cef9f0;
+  --color-keppel-200: #9cf3e2;
+  --color-keppel-300: #63e5d0;
+  --color-keppel-400: #32cfba;
+  --color-keppel-500: #1ab7a5;
+  --color-keppel-600: #119083;
+  --color-keppel-700: #12736b;
+  --color-keppel-800: #145b57;
+  --color-keppel-900: #154c48;
+  --color-keppel-950: #052e2d;
+  /* java */
+  --color-java-50: #f0fdfb;
+  --color-java-100: #cef9f4;
+  --color-java-200: #9cf3ea;
+  --color-java-300: #63e5dd;
+  --color-java-400: #32cfc9;
+  --color-java-500: #1ab7b4;
+  --color-java-600: #119090;
+  --color-java-700: #127273;
+  --color-java-800: #14595b;
+  --color-java-900: #154b4c;
+  --color-java-950: #052b2e;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.paused {
+  animation-play-state: paused !important;
+}
