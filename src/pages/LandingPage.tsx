@@ -1,5 +1,4 @@
 import Navbar from "../components/Navbar";
-import { MdDesignServices, MdOutlinePermMedia, MdWeb } from "react-icons/md";
 import { useState } from "react";
 import Hero from "./hero/Hero";
 import Services from "./services/Services";
