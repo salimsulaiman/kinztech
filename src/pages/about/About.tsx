@@ -1,13 +1,17 @@
 const About = () => {
   return (
     <div className="max-w-5xl mx-auto p-4 ">
-      <div className="w-full flex py-20">
-        <div className="w-1/2 relative">
-          <img src="/assets/woman-confuse.png" alt="" className="w-[600px] max-w-none absolute -left-30 -bottom-30" />
+      <div className="w-full flex flex-col md:flex-row py-20">
+        <div className="w-full md:w-1/2 relative">
+          <img
+            src="/assets/woman-confuse.png"
+            alt=""
+            className="w-[600px] max-w-none relative md:absolute -left-30 bottom-8 md:-bottom-30"
+          />
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <h4 className="text-slate-700 font-bold text-base">About Us</h4>
-          <h1 className="text-4xl mt-3 font-bold text-slate-800 leading-tight">
+          <h1 className="text-2xl md:text-4xl mt-3 font-bold text-slate-800 leading-tight">
             Build yours, create a better future today
           </h1>
           <div className="flex flex-col gap-4 mt-8">

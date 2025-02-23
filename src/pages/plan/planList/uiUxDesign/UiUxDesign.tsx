@@ -39,7 +39,7 @@ const UiUxDesign = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-4 mt-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
       {plans.map((plan, index) => (
         <div
           key={index}

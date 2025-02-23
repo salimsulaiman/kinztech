@@ -11,8 +11,8 @@ import Footer from "../components/Footer";
 function LandingPage() {
   const images = [
     "assets/logo/discord.png",
-    "assets/logo/discord.png",
-    "assets/logo/discord.png",
+    "assets/logo/google.png",
+    "assets/logo/slack.png",
     "assets/logo/discord.png",
     // "assets/logo/whatsapp.png",
     // "assets/logo/youtube.png",
