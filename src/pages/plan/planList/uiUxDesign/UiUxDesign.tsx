@@ -2,32 +2,42 @@ const UiUxDesign = () => {
   const plans = [
     {
       name: "Basic",
-      price: "$299",
-      features: ["Single Page Design", "Responsive Layout", "Basic UI Components", "Delivery in 7 Days"],
+      price: "$199",
+      features: [
+        "Wireframing for 1 Page",
+        "Basic UI Style Guide",
+        "Mobile-Responsive Design",
+        "Color & Typography Selection",
+        "Delivery in 3 Days",
+      ],
     },
     {
       name: "Standard",
-      price: "$599",
+      price: "$499",
       features: [
-        "Up to 5 Pages Design",
+        "Wireframing & Prototyping (Up to 5 Pages)",
         "Custom UI Components",
-        "User Experience Enhancement",
-        "SEO Friendly Structure",
-        "Delivery in 14 Days",
+        "User-Centered Design",
+        "Mobile & Tablet Optimization",
+        "Basic UX Research",
+        "Delivery in 7 Days",
       ],
     },
     {
       name: "Premium",
-      price: "$999",
+      price: "$899",
       features: [
-        "Unlimited Pages Design",
-        "Full Custom UI/UX",
-        "Advanced Animations & Interactions",
-        "Design System & Guidelines",
-        "Delivery in 30 Days",
+        "End-to-End UI/UX Design (Unlimited Pages)",
+        "Advanced Prototyping & Interactions",
+        "Design System & Style Guide",
+        "In-Depth UX Research & Testing",
+        "User Persona & Journey Mapping",
+        "High-Fidelity Design with Animations",
+        "Delivery in 15 Days",
       ],
     },
   ];
+
   return (
     <div className="grid grid-cols-3 gap-4 mt-8">
       {plans.map((plan, index) => (

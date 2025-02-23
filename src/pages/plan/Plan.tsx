@@ -8,7 +8,7 @@ const Plan = () => {
 
   return (
     <div className="max-w-5xl mx-auto p-4 ">
-      <div className="w-full py-20">
+      <div className="w-full pt-20 pb-10">
         <h2 className="text-slate-700 text-2xl font-bold text-center">Choose the plan thats right for you</h2>
         <div className="w-full justify-center flex gap-4 mt-8">
           <button

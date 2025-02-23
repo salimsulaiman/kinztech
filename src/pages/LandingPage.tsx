@@ -4,6 +4,9 @@ import Hero from "./hero/Hero";
 import Services from "./services/Services";
 import About from "./about/About";
 import Plan from "./plan/Plan";
+import Reviews from "./reviews/Reviews";
+import Contact from "./contact/Contact";
+import Footer from "../components/Footer";
 
 function LandingPage() {
   const images = [
@@ -27,11 +30,7 @@ function LandingPage() {
         {/* services */}
         <Services />
         {/* scrolling */}
-        <div
-          className="relative overflow-hidden pt-2 pb-16 bg-white whitespace-nowrap"
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-        >
+        <div className="relative overflow-hidden py-2 mb-8 bg-white whitespace-nowrap">
           {/* Gradient Fade on Left */}
           <div className="absolute top-0 left-0 w-[250px] h-full z-10 bg-gradient-to-l from-transparent to-white pointer-events-none"></div>
           {/* Gradient Fade on Right */}
@@ -45,6 +44,8 @@ function LandingPage() {
                 src={src}
                 alt={`logo-${index}`}
                 className="h-[80px] mx-[30px] inline-block grayscale hover:filter-none"
+                onMouseEnter={() => setIsPaused(true)}
+                onMouseLeave={() => setIsPaused(false)}
               />
             ))}
           </div>
@@ -56,6 +57,11 @@ function LandingPage() {
         {/* plan */}
         <Plan />
       </div>
+      <div className="w-full max-w-5xl mx-auto p-4">
+        <Reviews />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }

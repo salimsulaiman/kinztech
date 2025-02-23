@@ -3,16 +3,23 @@ const WebDevelopment = () => {
     {
       name: "Basic",
       price: "$299",
-      features: ["Single Page Design", "Basic UI/UX Layout", "Responsive Design", "Delivery in 5 Days"],
+      features: [
+        "Single Page Website",
+        "Basic UI/UX Design",
+        "Responsive Layout",
+        "Basic SEO Setup",
+        "Delivery in 5 Days",
+      ],
     },
     {
       name: "Standard",
       price: "$599",
       features: [
-        "Multi-Page Design",
-        "Custom UI/UX",
-        "Mobile-Friendly Design",
-        "SEO Optimization",
+        "Multi-Page Website",
+        "Custom UI/UX Design",
+        "Mobile Optimization",
+        "SEO & Performance Optimization",
+        "Basic CMS Integration",
         "Delivery in 10 Days",
       ],
     },
@@ -20,14 +27,17 @@ const WebDevelopment = () => {
       name: "Premium",
       price: "$999",
       features: [
-        "Fully Custom Web Design",
+        "Fully Custom Web Development",
         "Advanced UI/UX Animations",
-        "E-commerce Integration",
-        "High-Speed Optimization",
+        "E-commerce & Payment Integration",
+        "High-Speed Performance Optimization",
+        "API & Third-Party Integration",
+        "Advanced SEO & Analytics",
         "Delivery in 20 Days",
       ],
     },
   ];
+
   return (
     <div className="grid grid-cols-3 gap-4 mt-8">
       {plans.map((plan, index) => (
