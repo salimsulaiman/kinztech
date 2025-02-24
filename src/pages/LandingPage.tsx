@@ -43,7 +43,7 @@ function LandingPage() {
                 key={index}
                 src={src}
                 alt={`logo-${index}`}
-                className="h-[80px] mx-[30px] inline-block grayscale hover:filter-none"
+                className="h-[50px] md:h-[80px] mx-[30px] inline-block grayscale hover:filter-none"
                 onMouseEnter={() => setIsPaused(true)}
                 onMouseLeave={() => setIsPaused(false)}
               />

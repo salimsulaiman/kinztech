@@ -1,12 +1,12 @@
 const About = () => {
   return (
     <div className="max-w-5xl mx-auto p-4 ">
-      <div className="w-full flex flex-col md:flex-row py-20">
+      <div className="w-full flex flex-col md:flex-row py-10 md:py-20">
         <div className="w-full md:w-1/2 relative">
           <img
             src="/assets/woman-confuse.png"
             alt=""
-            className="w-[600px] max-w-none relative md:absolute -left-30 bottom-8 md:-bottom-30"
+            className="w-[450px] md:w-[600px] max-w-none relative md:absolute left-1/2 -translate-x-1/2 md:translate-x-0 md:-left-30 bottom-8 md:-bottom-30"
           />
         </div>
         <div className="w-full md:w-1/2">

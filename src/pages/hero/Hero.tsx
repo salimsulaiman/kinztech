@@ -2,7 +2,7 @@ import { FiSearch } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <div className={`bg-[url(/grid.jpeg)] bg-cover bg-center pt-28 pb-12 md:pb-28 relative w-full`}>
+    <div className={`bg-[url(/grid.jpeg)] bg-cover bg-center pt-20 md:pt-28 pb-12 md:pb-28 relative w-full`}>
       <div className="w-full flex flex-col md:flex-row gap-4">
         <div className="w-full md:w-1/2">
           <div className="flex gap-2 items-center">

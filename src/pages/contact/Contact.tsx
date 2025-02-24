@@ -2,10 +2,10 @@ import { IoCall, IoLocationSharp, IoMail } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className={`bg-white bg-cover py-32 bg-center relative w-full`}>
-      <div className="flex w-full relative items-center">
-        <div className="w-7/12">
-          <div className="w-full p-8 pe-28 bg-curious-blue-600 text-white rounded-2xl">
+    <div className={`bg-white bg-cover py-16 md:py-32 bg-center relative w-full`}>
+      <div className="flex flex-col md:flex-row w-full relative items-center">
+        <div className="w-full md:w-7/12">
+          <div className="w-full p-8 md:pe-28 bg-curious-blue-600 text-white rounded-2xl">
             <h3 className="text-2xl">Lets make it happen</h3>
             <p className="text-base mt-4 leading-loose">
               Have questions or need assistance? Our team is here to help you every step of the way. Reach out to us
@@ -27,7 +27,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-6/12 absolute right-0">
+        <div className="w-full md:w-6/12 relative md:absolute right-auto md:right-0 md:bottom-auto top-8 md:top-auto">
           <div className="min-h-[400px] w-full rounded-2xl bg-slate-500/50 backdrop-blur-lg p-8">
             <h1 className="text-white text-2xl font-bold">Contact Us</h1>
 
