@@ -1,11 +1,12 @@
+import { Route, Routes } from "react-router";
 import "./App.css";
 import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <>
-      <LandingPage />
-    </>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+    </Routes>
   );
 }
 

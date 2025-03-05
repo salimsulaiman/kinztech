@@ -6,10 +6,9 @@ const Footer = () => {
         <div className="w-full col-span-1 md:col-span-2">
           <h1 className="text-3xl text-curious-blue-600 font-bold text-center md:text-start">kinztech</h1>
           <p className="text-slate-600 mt-4 font-medium text-center md:text-start">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum similique deleniti, quasi consequuntur iusto
-            quae omnis quod perspiciatis mollitia cum!
+          Providing UI/UX Design, Web Development, and Video Editing services to elevate your digital presence.
           </p>
-          <h4 className="font-bold text-slate-700 mt-8 md:mt-4 text-center md:text-start">Lorem, ipsum dolor.</h4>
+          <h4 className="font-bold text-slate-700 mt-8 md:mt-4 text-center md:text-start">Innovate Digitally, Create Uniquely.</h4>
           {/* <form className="flex w-full items-center mt-4">
             <div className="w-8/12">
               <input

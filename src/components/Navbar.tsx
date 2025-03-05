@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState<boolean>(false);
@@ -32,9 +33,9 @@ function Navbar() {
           scrolling ? "py-4 md:py-6" : "py-4 md:py-12"
         } flex justify-between items-center transition-all duration-200 ease-in-out`}
       >
-        <a href="#" className="text-2xl font-bold text-curious-blue-700">
+        <Link to={"/#"} className="text-2xl font-bold text-curious-blue-700">
           kinztech
-        </a>
+        </Link>
         <div className="md:hidden flex items-center">
           <button onClick={() => setMenuOpen(!menuOpen)} className="cursor-pointer">
             {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
@@ -51,7 +52,7 @@ function Navbar() {
             >
               <li>
                 <a
-                  href=""
+                  href="/#"
                   className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
                 >
                   Home
@@ -59,7 +60,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="/#about"
                   className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
                 >
                   About
@@ -67,7 +68,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="/#services"
                   className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
                 >
                   Services
@@ -75,16 +76,19 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="/#pricing"
                   className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
                 >
                   Pricing
                 </a>
               </li>
               <li>
-                <button className="block md:hidden w-full text-base text-white bg-curious-blue-600 hover:bg-curious-blue-700 cursor-pointer px-6 py-2 rounded-full">
+                <a
+                  href="https://wa.me/087776421079?text=I'm%20interested%20in%20your%20car%20for%20sale"
+                  className="block md:hidden w-full text-base text-white bg-curious-blue-600 hover:bg-curious-blue-700 cursor-pointer px-6 py-2 rounded-full"
+                >
                   Let&#39;s Talk
-                </button>
+                </a>
               </li>
             </motion.ul>
           )}
@@ -92,7 +96,7 @@ function Navbar() {
         <ul className=" hidden md:flex gap-12">
           <li>
             <a
-              href=""
+              href="/#"
               className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
             >
               Home
@@ -100,7 +104,7 @@ function Navbar() {
           </li>
           <li>
             <a
-              href=""
+              href="/#about"
               className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
             >
               About
@@ -108,7 +112,7 @@ function Navbar() {
           </li>
           <li>
             <a
-              href=""
+              href="/#services"
               className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
             >
               Services
@@ -116,16 +120,20 @@ function Navbar() {
           </li>
           <li>
             <a
-              href=""
+              href="/#pricing"
               className="text-base text-slate-500 hover:text-curious-blue-800 font-semibold transition-colors duration-100 ease-in-out"
             >
               Pricing
             </a>
           </li>
         </ul>
-        <button className="hidden md:block text-base text-white bg-curious-blue-600 hover:bg-curious-blue-700 cursor-pointer px-6 py-2 rounded-full">
+        <a
+          href="https://wa.me/+6287776421079?text=Halo%2C%20saya%20ingin%20menggunakan%20jasa%20anda"
+          target="_blank"
+          className="hidden md:block text-base text-white bg-curious-blue-600 hover:bg-curious-blue-700 cursor-pointer px-6 py-2 rounded-full"
+        >
           Let&#39;s Talk
-        </button>
+        </a>
       </div>
     </nav>
   );

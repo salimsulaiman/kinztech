@@ -2,7 +2,7 @@ import { MdDesignServices, MdOutlinePermMedia, MdWeb } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="bg-white w-full pt-36 pb-16 min-h-[600px]">
+    <div className="bg-white w-full pt-36 pb-16 min-h-[600px]" id="services">
       <div className="mx-auto text-center">
         <h4 className="text-slate-700 font-bold text-base">Services</h4>
         <h1 className="text-2xl mt-3 font-bold text-slate-800">Our Popular Services For You</h1>

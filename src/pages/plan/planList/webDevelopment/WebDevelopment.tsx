@@ -59,7 +59,8 @@ const WebDevelopment = () => {
             </ul>
           </div>
           <a
-            href="#"
+            href={`https://wa.me/+6287776421079?text=Halo%2C%20saya%20ingin%20menggunakan%20jasa%Web%20Development%20Paket%20${plan.name}`}
+            target="_blank"
             className="mt-8 font-bold text-slate-700 w-full text-center p-2 rounded-full border border-slate-400 group-hover:border-white group-hover:text-white hover:bg-white hover:text-curious-blue-600 transition-colors duration-150 ease-in-out"
           >
             Get Started
